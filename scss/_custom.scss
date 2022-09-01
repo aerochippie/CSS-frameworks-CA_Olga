@@ -1,0 +1,26 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+$primary: #6d638b;
+$secondary: #24b1e0;
+$dark: #686868;
+$light:rgba(222, 222, 222, 0.667);
+
+
+
+$accent: #fafa;
+
+
+
+
+//import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";

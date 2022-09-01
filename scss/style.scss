@@ -1,0 +1,57 @@
+@use '_custom';
+
+$accent: #fafa;
+$neutral-light: #ecececaa;
+$neutral-dark:#4d4d4d;
+
+body{
+    background-color: $neutral-light;
+    margin: 0s;
+}
+
+a{
+    color: $accent;
+}
+
+.form-back{
+    background: $neutral-dark;
+}
+
+
+.login-container{
+    width: 100%;
+    min-height: 100vh;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrap{
+border-radius: 10px;
+position: relative;
+padding: 5em;
+
+text-align: center;
+
+}
+
+.label-field{
+font-size: 3rem;
+padding: 1rem;
+
+}
+
+.input-field{
+ 
+
+}
+
+.button-login{
+    background-color: $accent;
+    margin: 3em;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
