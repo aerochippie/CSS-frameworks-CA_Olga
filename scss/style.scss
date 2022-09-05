@@ -1,39 +1,20 @@
 @use "_custom";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css');
 
-$accent: #fafa;
-$neutral-light: #ecececaa;
-$neutral-dark: #4d4d4d;
 
-body {
-  background-color: $neutral-light;
-  margin: 0s;
+html, body {
+  background-color: #fff;
+  height: 100%;
 }
 
 a {
-  color: $accent;
+  color: #fafa;
+}
+.platform-logo{
+  font-family: 'Comfortaa', cursive;
 }
 
-.form-back {
-  background: $neutral-dark;
-}
-
-.login-container {
-  width: 100%;
-  min-height: 100vh;
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.login-wrap {
-  border-radius: 10px;
-  position: relative;
-  padding: 5em;
-
-  text-align: center;
-}
 
 .label-field {
   font-size: 3rem;
@@ -41,7 +22,7 @@ a {
 }
 
 .button-login {
-  background-color: $accent;
+  background-color: #fff;
   margin: 3em;
   padding: 1em;
   padding-left: 2em;
