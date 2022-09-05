@@ -5,14 +5,20 @@
 @import "../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
-$primary: #6d638b;
-$secondary: #24b1e0;
-$dark: #686868;
-$light:rgba(222, 222, 222, 0.667);
+
+$theme-colors: (
+  "darker": rgb(25, 21, 32),
+  "accent":rgb(136, 44, 234),
+  "primary": #7060a1,
+"secondary": #24b1e0,
+"dark": #686868,
+"light":rgba(222, 222, 222, 0.667),
+"info": rgb(139, 217, 234)
+);
 
 
 
-$accent: #fafa;
+
 
 
 
